@@ -7,15 +7,6 @@ bindkey '^r' history-incremental-search-backward
 bindkey "^[[5~" up-line-or-history
 bindkey "^[[6~" down-line-or-history
 
-#Rxvt|Xterm
-bindkey "^[[7~" beginning-of-line #Home key
-bindkey "^[[8~" end-of-line #End key
-bindkey "^[[3~" delete-char #Del key
-bindkey "^[Oc" forward-word # control + right arrow
-bindkey "^[Od" backward-word # control + left arrow
-bindkey "^H" backward-kill-word # control + backspace
-bindkey "^[[3^" kill-word # control + delete
-
 # make search up and down work, so partially type and hit up/down to find relevant stuff
 bindkey '^[[A' up-line-or-search
 bindkey '^[[B' down-line-or-search
